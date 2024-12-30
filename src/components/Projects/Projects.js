@@ -2,12 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import codesync from "../../Assets/Projects/codesync.png";
+import dbmslab from "../../Assets/Projects/dbmslab.png";
+import bookcorner from "../../Assets/Projects/bookcorner.png";
+import cosocket from "../../Assets/Projects/cosocket.png";
 
 function Projects() {
   return (
@@ -21,72 +19,50 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cosocket}
+              isBlog={false}
+              title="COSOCKET"
+              description="Developed a custom manufacturing website, increasing process efficiency by 30% using Next.js and Tailwind.Enhanced user engagement by 25% through personalized product and process management, leveraging MongoDB.Collaborated with 4 cross-functional teams to streamline workflows, reducing project completion time by 20%."
+              ghLink="https://github.com/Cosocket-Official"
+              demoLink="https://cosocket-client.vercel.app/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={codesync}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="CODESYNC"
+              description="Developed a real-time collaborative code editor that improved team productivity by 40% using Socket.io. Reduced debugging time by 30% by adding live execution and debugging features, built with JavaScript. Streamlined collaboration for 50+ users by integrating version control with a unified workspace."
+              ghLink="https://github.com/Sakshig711/CodeSync_PBL"
+              demoLink="https://codesync-e8ff.onrender.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={dbmslab}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="DBMS-VIRTUAL LAB"
+              description="Developed a virtual lab platform, improving DBMS understanding for 200+ students using React and JavaScript. Increased curriculum alignment by 90% through hands-on exercises, enhancing student performance. Improved learning engagement by 20% by integrating interactive and real-time feedback features."
+              ghLink="https://github.com/Sakshig711/Virtual-lab"
+              demoLink="https://dmsllab.vercel.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={bookcorner}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="BOOK-CORNER"
+              description="Built an online book repository that provided 1,000+ students access to curated academic resources using MongoDB. Improved student academic performance by 15% by offering comprehensive guides and assignments. Streamlined access to academic content by reducing search time by 50% through efficient categorization."
+              ghLink="https://github.com/Sakshig711/PBL_Book_Corner"
+              demoLink="https://bookscorner-v4a1.onrender.com/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col>
+          
         </Row>
       </Container>
     </Container>
