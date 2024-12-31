@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,8 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂
+            I am passionate about programming and continuously expanding my knowledge in the field.
               <br />
               <br />I am fluent in classics like
               <i>
@@ -54,7 +53,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>My coding profiles</h1>
+            <h1 class="profile-heading">MY CODING PROFILES</h1>
             <p>
               Feel free to <span className="purple">connect </span>with me
             </p>

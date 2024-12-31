@@ -322,6 +322,14 @@ button:focus {
   padding-bottom: 70px !important;
   padding-top: 70px !important;
 }
+.profile-heading {
+  font-size: 27px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #7a2db1;  /* Indigo or use any color you prefer */
+}
+
 
 .home-about-description {
   color: rgb(255, 255, 255) !important;
@@ -519,6 +527,9 @@ button:focus {
   opacity: 0.8 !important;
   border-radius: 0px !important;
 }
+.img-fluid{
+  margin-top: -20px;
+}
 
 .btn-primary {
   color: #000000 !important;
@@ -597,11 +608,12 @@ button:focus {
   padding-left: 1px !important;
 }
 
-@media (max-width: 767px) {
+
   .about-img {
     padding-top: 0 !important;
+    margin-bottom: 50px;
   }
-}
+
 /* --------- */
 /* Resume */
 /* --------- */
