@@ -47,7 +47,7 @@ function Projects() {
               title="DBMS-VIRTUAL LAB"
               description="Developed a virtual lab platform, improving DBMS understanding for 200+ students using React and JavaScript. Increased curriculum alignment by 90% through hands-on exercises, enhancing student performance. Improved learning engagement by 20% by integrating interactive and real-time feedback features."
               ghLink="https://github.com/Sakshig711/Virtual-lab"
-              demoLink="https://dmsllab.vercel.app/"
+              demoLink="https://virtual-lab-nine.vercel.app/"
             />
           </Col>
 
