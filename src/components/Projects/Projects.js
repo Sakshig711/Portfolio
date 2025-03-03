@@ -40,7 +40,7 @@ function Projects() {
               demoLink="https://virtual-lab-nine.vercel.app/"
             />
           </Col>
-	  
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={codesync}
@@ -52,11 +52,9 @@ function Projects() {
             />
           </Col>
 
-          
-
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={timeglobe}
+              imgPath={Timeglobe}
               isBlog={false}
               title="TimeGlobe"
               description="A simple and efficient Timezone Extension that allows users to quickly check and convert time across multiple time zones. Designed for ease of use, it provides real-time updates, customizable time zones, and a sleek UI for seamless scheduling and coordination."
