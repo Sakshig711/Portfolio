@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import codesync from "../../Assets/Projects/codesync.png";
 import dbmslab from "../../Assets/Projects/dbmslab.png";
-import bookcorner from "../../Assets/Projects/bookcorner.png";
+import timeglobe from "../../Assets/Projects/timezone.png";
 import cosocket from "../../Assets/Projects/cosocket.png";
 
 function Projects() {
@@ -54,9 +54,9 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Timeglobe}
+              imgPath={timeglobe}
               isBlog={false}
-              title="TimeGlobe"
+              title="TIMEGLOBE"
               description="A simple and efficient Timezone Extension that allows users to quickly check and convert time across multiple time zones. Designed for ease of use, it provides real-time updates, customizable time zones, and a sleek UI for seamless scheduling and coordination."
               ghLink="https://github.com/Sakshig711/TimeGlobe"
               demoLink="https://chromewebstore.google.com/detail/timezone-viewer/mjmgbejijmngbhahcnndhgjgmhbgmddo"
