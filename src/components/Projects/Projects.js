@@ -53,12 +53,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bookcorner}
+              imgPath={timeglobe}
               isBlog={false}
-              title="BOOK-CORNER"
-              description="Built an online book repository that provided 1,000+ students access to curated academic resources using MongoDB. Improved student academic performance by 15% by offering comprehensive guides and assignments. Streamlined access to academic content by reducing search time by 50% through efficient categorization."
-              ghLink="https://github.com/Sakshig711/PBL_Book_Corner"
-              demoLink="https://bookscorner-v4a1.onrender.com/"
+              title="TimeGlobe"
+              description="A simple and efficient Timezone Extension that allows users to quickly check and convert time across multiple time zones. Designed for ease of use, it provides real-time updates, customizable time zones, and a sleek UI for seamless scheduling and coordination."
+              ghLink="https://github.com/Sakshig711/TimeGlobe"
+              demoLink="https://chromewebstore.google.com/detail/timezone-viewer/mjmgbejijmngbhahcnndhgjgmhbgmddo"
             />
           </Col>
 
