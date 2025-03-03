@@ -29,6 +29,18 @@ function Projects() {
               demoLink="https://cosocket-client.vercel.app/"
             />
           </Col>
+
+	  <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dbmslab}
+              isBlog={false}
+              title="DBMS-VIRTUAL LAB"
+              description="Developed a virtual lab platform, improving DBMS understanding for 200+ students using React and JavaScript. Increased curriculum alignment by 90% through hands-on exercises, enhancing student performance. Improved learning engagement by 20% by integrating interactive and real-time feedback features."
+              ghLink="https://github.com/Sakshig711/Virtual-lab"
+              demoLink="https://virtual-lab-nine.vercel.app/"
+            />
+          </Col>
+	  
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={codesync}
@@ -40,16 +52,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={dbmslab}
-              isBlog={false}
-              title="DBMS-VIRTUAL LAB"
-              description="Developed a virtual lab platform, improving DBMS understanding for 200+ students using React and JavaScript. Increased curriculum alignment by 90% through hands-on exercises, enhancing student performance. Improved learning engagement by 20% by integrating interactive and real-time feedback features."
-              ghLink="https://github.com/Sakshig711/Virtual-lab"
-              demoLink="https://virtual-lab-nine.vercel.app/"
-            />
-          </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
